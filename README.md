@@ -150,19 +150,6 @@ URL: `/api/pedidos`
 | Listar pedidos ativos     | GET `/api/pedidos`                            |
 | Ver histórico completo    | Visualizar manualmente `pedidos.json`         |
 
----
-
-## 🚀 Melhorias Recomendadas
-
-| Recurso                   | O que implementar                             |
-|--------------------------|-----------------------------------------------|
-| Retornar ID no POST      | Usar `ResponseEntity.created().body(id)`      |
-| GET `/api/pedidos/{id}`  | Criar endpoint para buscar pedido específico  |
-| Swagger/OpenAPI          | Adicionar `springdoc-openapi-ui`              |
-| Validações customizadas  | Mensagens de erro mais descritivas            |
-
----
-
 ## 📁 Estrutura de Persistência
 
 - `pedidos.json`: todos os pedidos (ativos e cancelados)
